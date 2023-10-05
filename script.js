@@ -66,6 +66,7 @@ class Tamagotchi {
 
 function start() {
    const response = prompt("What do you want your tamagotchi to be named?")
+   alert("keep your Tamagotchi's Hunger, Sleepiness and Boredom below 10 or else your Tamagotchi will die. You will go to jail for neglecting your Tamagotchi which is a severe crime.")
      tamagotchi1 = new Tamagotchi()
      displayHunger();
      displaySleepiness();
