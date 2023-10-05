@@ -12,17 +12,17 @@ class Tamagotchi {
             this.hunger++
             displayHunger();
             this.areYouDead()
-        }, 2000)
+        }, 3000)
         this.sleepinessInterval = setInterval(() => {
             this.sleepiness++
             displaySleepiness()
             this.areYouDead()
-        }, 2000)
+        }, 3000)
         this.boredomInterval = setInterval(() => {
             this.boredom++
             displayBoredom()
             this.areYouDead()
-        }, 2000)
+        }, 3000)
         this.ageInterval = setInterval(() => {
             this.age++
             displayAge()
