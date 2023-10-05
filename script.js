@@ -117,5 +117,5 @@ function displayAge() {
 
 function displayDeath() {
     let element = document.getElementById("death-message")
-    element.innerHTML = `You neglected ${tamagotchi1.name}. ${tamagotchi1.name} has died`
+    element.innerHTML = `You neglected ${tamagotchi1.name}. ${tamagotchi1.name} has died. You will recieve 3 life sentences`
 }
